@@ -1,0 +1,93 @@
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+html{
+    background-color: #E5EAF0;
+}
+
+/* Grandezza desktop */
+body{
+    width: 1280px;
+    height: 100vh;
+    margin: auto;
+}
+
+/* Blocco intero */
+main {
+    margin: auto;
+    margin-top: 164px;
+    /* border: solid black 1px; */
+    border-radius: 16px 16px 0 0;
+    width: 336px;
+    padding: 16px;
+    background-color: #FFFFFF;
+}
+
+/* Blocco Immagine */
+#img {
+    width: 336px;
+    height: 152px;
+    border-radius: 16px;
+    overflow: hidden;
+    /* border: solid black 1px; */
+}
+
+/* Immagine */
+#img > img{
+    width: 336px;
+    height: 152px;
+}
+
+/* Blocco design */
+#design{
+margin-top: 16px;
+margin-bottom: 16px;
+}
+
+/* Design */
+#design > span {
+    color: #883AE1;
+    background-color: #E6D6FC;
+    padding: 6px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-family: 'Sora', sans-serif;
+}
+
+/* Titolo e testo */
+#text{
+max-width: 100%;
+padding-bottom: 20px;
+}
+
+h2{
+    font-size: 18px;
+    font-family: 'Sora', sans-serif;
+    margin-bottom: 6px;
+    color: #20293A;
+}
+
+p{
+  font-size: 14px; 
+  color: #6C727F; 
+}
+
+footer{
+    border-top: solid #6C727F 1px;
+    width: 368px;
+    margin: auto;
+    background-color: #FFFFFF;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 0 0 16px 16px;
+}
+
+#footer > span{
+   padding: 16px;
+   font-family: "Sora", sans-serif;
+   color: #6C727F;
+   font-size: 10px;
+}
